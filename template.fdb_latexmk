@@ -1,7 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1731181013 "template.tex" "template.pdf" "template" 1731181013
+["pdflatex"] 1731182797 "template.tex" "template.pdf" "template" 1731182797
   "/etc/texmf/web2c/texmf.cnf" 1717262269 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/arpanswaroop/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1718503044 12644 ce6fd0a052ae2cfc8444d6bbe5d876be ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -19,6 +21,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
@@ -47,8 +50,8 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1717262271 128028 f533b797fba58d231669ea19e894e23e ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1717262273 1405645 488f19f7efabf7a1833129b2591832ca ""
   "resume.cls" 1731180996 6088 430b503d863c9c05e37b31fbac2ad21a ""
-  "template.aux" 1731181013 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "template.tex" 1731181009 5143 45b21fce94da22167a7f4867a87a271a ""
+  "template.aux" 1731182757 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "template.tex" 1731182797 10114 74e765d98073de312a3fceebb0d26d1b ""
   (generated)
   "template.aux"
   "template.log"

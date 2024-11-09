@@ -17,6 +17,47 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt]}
+
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -30,7 +71,7 @@
 
 %------------------------------------------------
 
-\name{John Smith} % Your name to appear at the top
+\name{Arpan Swaroop} % Your name to appear at the top
 
 % You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
 % Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
@@ -95,6 +136,60 @@
 	\end{rSubsection}
 
 \end{rSection}
+
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Unix Like 32-bit x86 Operating System} $|$ \emph{C, x86 asm}}{}
+\resumeItemListStart
+\resumeItem{Architected a minimalistic multitasking operating system for x86 hardware, prioritizing efficiency and reliability}
+\resumeItem{Devised an interrupt-driven, time-slice-based CPU scheduling algorithm to schedule process execution}
+% \resumeItem{Implemented support for round-robin process scheduling policy, with terminal switching}
+\resumeItem{Supported virtual memory using paging data-structures}
+\resumeItem{Developed a custom filesystem that supports basic file operations, utilizing storage, and I/O principles}
+% \resumeItem{Supported system calls such as Execute, Halt, and Vidmap}
+\resumeItem{Implemented device drivers for keyboard, Real Time Clock, Programmable Interrupt Controller, and Programmable Interval Timer}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{Game Developer's toolkit} $|$ \emph{Javascript, HTML, CSS, Node.js, Express, MySQL, Python}}{}
+\resumeItemListStart
+\resumeItem{Developed full-stack web application using a steam game database to help game developers}
+\resumeItem{Implemented multiple advanced queries to the database to output useful information for game developers}
+\resumeItem{Implemented interactive graphs in \textbf{Python}, showing helpful patterns in game data across all steam  games}
+\resumeItem{Added features to enable user sign in and login, and the ability to add other users as friends}
+\resumeItem{Utilized a \textbf{REST API} made with \textbf{Node.js} and \textbf{Express}}
+\resumeItem{Hosted website on the Google Cloud Platform}
+% \resumeItem{Developed a full-stack web application using Node.js and Express in the backend, and using React in the frontend}
+% \resumeItem{Created a REST API using Node.js and Express}
+% \resumeItem{Utilized the Clarifai machine learning API to recognize faces from inputted images by user}
+% \resumeItem{Stored users using PostgresSQL}
+% \resumeItem{Styled front end using SCSS}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Chip-8 Emulator and Microcontroller port} $|$ \emph{Rust, C}}{}
+\resumeItemListStart
+\resumeItem{Developed a Chip-8 emulator in Rust, Engineered to be resource-efficient, optimizing for constrained environments}
+\resumeItem{Ported the emulator to an ARM Cortex-M4 microcontroller, adapting Rust code for embedded systems}
+\resumeItem{Implemented I/O functionality on the microcontroller, managing keyboard input and display output via \textbf{SPI} interface}
+\resumeItem{Ensured real-time performance and responsiveness by utilizing hardware timers and \textbf{interrupt-driven} design}
+\resumeItemListEnd
+% \resumeProjectHeading
+% {\textbf{Wikipedia graph analysis} $|$ \emph{C++}}{}
+% \resumeItemListStart
+% \resumeItem{Analyzed a directed unweighted graph based on 4 million Wikipedia pages to create a "you might also like" tool}
+% \resumeItem{Implemented the BFS algorithm, to trim and process the dataset}
+% \resumeItem{Used the Brandes algorithm to efficiently calculate betweenness centrality for each node, utilizing this to return a related topic to two wikipedia pages inputted by a user}
+% \resumeItem{Used Kosaraju's algorithm to find strongly connected components in the graph}
+% \resumeItemListEnd
+\resumeProjectHeading
+{\textbf{Chat-App} $|$
+  \emph{Golang, javascript, HTML, CSS}}{}
+\resumeItemListStart
+\resumeItem{Created a simple chat-app utilizing a backend http web-server written in Go}
+\resumeItem{Utilized \textbf{web-sockets} with \textbf{Go-routines} and \textbf{Go-channels} to allow multiple users to connect to the server}
+\resumeItem{Utilized javascript, HTML, CSS to create dynamic webpages served from the web server}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
